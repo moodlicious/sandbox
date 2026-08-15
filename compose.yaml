@@ -25,4 +25,4 @@ services:
         restart: unless-stopped
         command: tunnel --no-autoupdate run
         environment:
-            - TUNNEL_TOKEN_FILE=${CLOUDFLARE_TUNNEL_TOKEN_FILE}
+            - TUNNEL_TOKEN=${CLOUDFLARE_TUNNEL_TOKEN}

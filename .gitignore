@@ -22,3 +22,6 @@
 
 # Do not commit composer auth files.
 auth.json
+
+# Env
+.env
