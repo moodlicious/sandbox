@@ -18,7 +18,7 @@ services:
             - ./data/moodle/phpunitdata:/var/www/phpunitdata
             - ./data/moodle/behatdata:/var/www/behatdata
             - ./data/moodle/behatfaildumps:/var/www/behatfaildumps
-        depends_on: [db]
+        depends_on: [database]
 
     tunnel:
         image: cloudflare/cloudflared
