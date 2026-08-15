@@ -1,0 +1,28 @@
+services:
+    database:
+        image: postgres:18.4-alpine
+        restart: unless-stopped
+        environment:
+            POSTGRES_USER: ${DB_USERNAME}
+            POSTGRES_PASSWORD: ${DB_PASSWORD}
+            POSTGRES_DB: moodle
+        volumes:
+            - ./data/database:/var/lib/postgresql/18/docker
+
+    moodle:
+        image: moodlehq/moodle-php-apache:8.4-bookworm
+        restart: unless-stopped
+        volumes:
+            - ./moodle:/var/www/html
+            - ./data/moodle/moodledata:/var/www/moodledata
+            - ./data/moodle/phpunitdata:/var/www/phpunitdata
+            - ./data/moodle/behatdata:/var/www/behatdata
+            - ./data/moodle/behatfaildumps:/var/www/behatfaildumps
+        depends_on: [db]
+
+    tunnel:
+        image: cloudflare/cloudflared
+        restart: unless-stopped
+        command: tunnel --no-autoupdate run
+        environment:
+            - TUNNEL_TOKEN_FILE=${CLOUDFLARE_TUNNEL_TOKEN_FILE}
