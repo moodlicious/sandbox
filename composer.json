@@ -7,7 +7,8 @@
     "moodle/moodle-composer-scaffold": "*",
     "moodle/moodle": "^5.1",
     "moodlicious/moodle-dataformat_sqlite": "dev-main",
-    "moodlicious/moodle-dataformat_jsonl": "dev-main"
+    "moodlicious/moodle-dataformat_jsonl": "dev-main",
+    "moodlicious/moodle-local_wayfinder": "0.0.1"
   },
   "repositories": [
     {

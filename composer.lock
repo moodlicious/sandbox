@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9eb12d50da66c7b633d6c1b1e7d0341c",
+    "content-hash": "8f816b7841b7c0374c045a8197be1230",
     "packages": [
         {
             "name": "moodle/composer-installer",
@@ -236,6 +236,45 @@
                 "source": "https://github.com/moodlicious/moodle-dataformat_sqlite/tree/main"
             },
             "time": "2026-06-14T20:41:51+00:00"
+        },
+        {
+            "name": "moodlicious/moodle-local_wayfinder",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/moodlicious/moodle-local_wayfinder.git",
+                "reference": "07d7db46ddde2e83ca45c2cc213099597d0de09e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/moodlicious/moodle-local_wayfinder/zipball/07d7db46ddde2e83ca45c2cc213099597d0de09e",
+                "reference": "07d7db46ddde2e83ca45c2cc213099597d0de09e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3"
+            },
+            "require-dev": {
+                "micaherne/phpstan-moodle": "^1.0",
+                "phpstan/phpstan": "^2.1"
+            },
+            "type": "moodle-local",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Felix Yeung",
+                    "email": "me@felixyeung.com"
+                }
+            ],
+            "description": "Cmd+K command palette for Moodle.",
+            "support": {
+                "issues": "https://github.com/moodlicious/moodle-local_wayfinder/issues",
+                "source": "https://github.com/moodlicious/moodle-local_wayfinder/tree/v0.0.1"
+            },
+            "time": "2026-08-15T23:50:41+00:00"
         },
         {
             "name": "symfony/dotenv",
