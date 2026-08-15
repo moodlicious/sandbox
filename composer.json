@@ -1,0 +1,28 @@
+{
+  "name": "moodle/seed",
+  "description": "A Composer project template to seed a new Moodle Site",
+  "type": "project",
+  "require": {
+    "moodle/composer-installer": "*",
+    "moodle/moodle-composer-scaffold": "*",
+    "moodle/moodle": "^5.1"
+  },
+  "repositories": [
+    {
+      "name": "Moodle Package Repository",
+      "type": "composer",
+      "url": "https://moodle.org"
+    }
+  ],
+  "config": {
+    "allow-plugins": {
+      "moodle/composer-installer": true,
+      "moodle/moodle-composer-scaffold": true
+    },
+    "policy": {
+      "advisories": {
+        "block": false
+      }
+    }
+  }
+}
