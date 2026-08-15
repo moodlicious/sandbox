@@ -5,7 +5,9 @@
   "require": {
     "moodle/composer-installer": "*",
     "moodle/moodle-composer-scaffold": "*",
-    "moodle/moodle": "^5.1"
+    "moodle/moodle": "^5.1",
+    "moodlicious/moodle-dataformat_sqlite": "dev-main",
+    "moodlicious/moodle-dataformat_jsonl": "dev-main"
   },
   "repositories": [
     {

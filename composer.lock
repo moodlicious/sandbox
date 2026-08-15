@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "61b9f9b96f1adbad6b4f04508c65c58c",
+    "content-hash": "9eb12d50da66c7b633d6c1b1e7d0341c",
     "packages": [
         {
             "name": "moodle/composer-installer",
@@ -184,6 +184,60 @@
             "time": "2026-01-22T03:37:41+00:00"
         },
         {
+            "name": "moodlicious/moodle-dataformat_jsonl",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/moodlicious/moodle-dataformat_jsonl.git",
+                "reference": "2172a6ad5af9c53acecef575c6c147a051c3deec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/moodlicious/moodle-dataformat_jsonl/zipball/2172a6ad5af9c53acecef575c6c147a051c3deec",
+                "reference": "2172a6ad5af9c53acecef575c6c147a051c3deec",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "moodle-dataformat",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "description": "A Moodle data format plugin that exports data in JSON Lines (JSONL) format.",
+            "support": {
+                "issues": "https://github.com/moodlicious/moodle-dataformat_jsonl/issues",
+                "source": "https://github.com/moodlicious/moodle-dataformat_jsonl/tree/main"
+            },
+            "time": "2026-06-14T20:34:11+00:00"
+        },
+        {
+            "name": "moodlicious/moodle-dataformat_sqlite",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/moodlicious/moodle-dataformat_sqlite.git",
+                "reference": "5fbbf0da5490660b02fb105d6a774d5d8102cbd5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/moodlicious/moodle-dataformat_sqlite/zipball/5fbbf0da5490660b02fb105d6a774d5d8102cbd5",
+                "reference": "5fbbf0da5490660b02fb105d6a774d5d8102cbd5",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "moodle-dataformat",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "description": "A Moodle data format plugin that exports data as a SQLite database dump.",
+            "support": {
+                "issues": "https://github.com/moodlicious/moodle-dataformat_sqlite/issues",
+                "source": "https://github.com/moodlicious/moodle-dataformat_sqlite/tree/main"
+            },
+            "time": "2026-06-14T20:41:51+00:00"
+        },
+        {
             "name": "symfony/dotenv",
             "version": "v7.4.15",
             "source": {
@@ -330,7 +384,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "moodlicious/moodle-dataformat_jsonl": 20,
+        "moodlicious/moodle-dataformat_sqlite": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {},
