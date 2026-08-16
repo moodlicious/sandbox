@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fd2fae26bf182e8956374a796502b01d",
+    "content-hash": "f5ddbc1e0d8c258fcf43f29634a72b15",
     "packages": [
         {
             "name": "adodb/adodb-php",
@@ -1860,6 +1860,32 @@
                 "source": "https://github.com/moodlicious/moodle-dataformat_sqlite/tree/main"
             },
             "time": "2026-06-14T20:41:51+00:00"
+        },
+        {
+            "name": "moodlicious/moodle-local_lumens",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/moodlicious/moodle-local_lumens.git",
+                "reference": "d28b43df5943a590daa2569f8b32812368dffb11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/moodlicious/moodle-local_lumens/zipball/d28b43df5943a590daa2569f8b32812368dffb11",
+                "reference": "d28b43df5943a590daa2569f8b32812368dffb11",
+                "shasum": ""
+            },
+            "type": "moodle-local",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "description": "Super duper energy saving mode for Moodle. Flashlight overlay. Darkens page except cursor area. Good for OLED.",
+            "support": {
+                "issues": "https://github.com/moodlicious/moodle-local_lumens/issues",
+                "source": "https://github.com/moodlicious/moodle-local_lumens/tree/v0.0.1"
+            },
+            "time": "2026-08-16T17:58:42+00:00"
         },
         {
             "name": "moodlicious/moodle-local_wayfinder",
