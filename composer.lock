@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f5ddbc1e0d8c258fcf43f29634a72b15",
+    "content-hash": "41a31c2a263e44bd0865457c4e0c81ab",
     "packages": [
         {
             "name": "adodb/adodb-php",
@@ -1927,6 +1927,37 @@
             "time": "2026-08-15T23:50:41+00:00"
         },
         {
+            "name": "moodlicious/moodle-tiny_richtext",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/moodlicious/moodle-tiny_richtext.git",
+                "reference": "4d63ef9ce0b577868086da905913be1cfee2604a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/moodlicious/moodle-tiny_richtext/zipball/4d63ef9ce0b577868086da905913be1cfee2604a",
+                "reference": "4d63ef9ce0b577868086da905913be1cfee2604a",
+                "shasum": ""
+            },
+            "require": {
+                "moodle/composer-installer": "*",
+                "moodle/moodle": "^5.2"
+            },
+            "default-branch": true,
+            "type": "moodle-tiny",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "description": "Re-enables rich text editing capabilities that were not enabled by Moodle by default.",
+            "support": {
+                "issues": "https://github.com/moodlicious/moodle-tiny_richtext/issues",
+                "source": "https://github.com/moodlicious/moodle-tiny_richtext/tree/main"
+            },
+            "time": "2026-08-19T04:02:47+00:00"
+        },
+        {
             "name": "mtdowling/jmespath.php",
             "version": "2.8.0",
             "source": {
@@ -3671,7 +3702,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "moodlicious/moodle-dataformat_jsonl": 20,
-        "moodlicious/moodle-dataformat_sqlite": 20
+        "moodlicious/moodle-dataformat_sqlite": 20,
+        "moodlicious/moodle-tiny_richtext": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

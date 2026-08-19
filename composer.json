@@ -10,7 +10,8 @@
     "moodlicious/moodle-dataformat_sqlite": "dev-main",
     "moodlicious/moodle-dataformat_jsonl": "dev-main",
     "moodlicious/moodle-local_wayfinder": "0.0.1",
-    "moodlicious/moodle-local_lumens": "0.0.1"
+    "moodlicious/moodle-local_lumens": "0.0.1",
+    "moodlicious/moodle-tiny_richtext": "dev-main"
   },
   "repositories": [
     {
